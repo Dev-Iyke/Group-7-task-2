@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 55px;
+    padding: 50px;
 }
 .f9-bottom .f9-col .card h5 {
     font-weight: 700;
@@ -46,7 +46,7 @@
 .f9-bottom .f9-col .card p {
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: #52525B;
 }
@@ -62,7 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 55px;
+    padding: 50px;
 }
 .f9-bottom .f9-col2 .card h5 {
     font-weight: 700;
@@ -73,7 +73,7 @@
 .f9-bottom .f9-col2 .card p {
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: #52525B;
 }
