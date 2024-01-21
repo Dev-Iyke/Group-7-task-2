@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 55px;
+    padding: 50px;
 }
 .f9-bottom .f9-col .card h5 {
     font-weight: 700;
@@ -46,7 +46,7 @@
 .f9-bottom .f9-col .card p {
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: #52525B;
 }
@@ -62,7 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 55px;
+    padding: 50px;
 }
 .f9-bottom .f9-col2 .card h5 {
     font-weight: 700;
@@ -73,7 +73,69 @@
 .f9-bottom .f9-col2 .card p {
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: #52525B;
+}
+
+@media only screen and (max-width: 465px) {
+    .f9-top h2 {
+        font-size: 32px;
+    }
+    .f9-top p {
+        font-size: 16px;
+    }
+    .f9-bottom .f9-col .card h5,
+    .f9-bottom .f9-col2 .card h5 {
+        font-size: 25px;
+    }
+    .f9-bottom .f9-col .card p,
+    .f9-bottom .f9-col2 .card p {
+        font-size: 35px;
+    }
+    .f9-bottom .f9-col,
+    .f9-bottom .f9-col2 {
+        flex-wrap: wrap;
+        border-bottom: none;
+    }
+    .f9-bottom .f9-col .side-l, 
+    .f9-bottom .f9-col2 .side-l {
+        border-right: none;
+    }
+    .f9-bottom .f9-col, 
+    .f9-bottom .f9-col2 {
+        width: 90%;
+    }
+    .f9-bottom .f9-col .card,
+    .f9-bottom .f9-col2 .card {
+        border-bottom: 1px solid #E4E4E7;
+        padding: 55px;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .f9-top h2 {
+        font-size: 40px;
+    }
+    .f9-top p {
+        font-size: 18px;
+    }
+    .f9-bottom .f9-col,
+    .f9-bottom .f9-col2 {
+        flex-wrap: wrap;
+        border-bottom: none;
+    }
+    .f9-bottom .f9-col .side-l, 
+    .f9-bottom .f9-col2 .side-l {
+        border-right: none;
+    }
+    .f9-bottom .f9-col, 
+    .f9-bottom .f9-col2 {
+        width: 90%;
+    }
+    .f9-bottom .f9-col .card,
+    .f9-bottom .f9-col2 .card {
+        border-bottom: 1px solid #E4E4E7;
+        padding: 35px;
+    }
 }
