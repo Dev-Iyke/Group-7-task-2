@@ -91,7 +91,7 @@
     }
     .f9-bottom .f9-col .card p,
     .f9-bottom .f9-col2 .card p {
-        font-size: 35px;
+        font-size: 14px;
     }
     .f9-bottom .f9-col,
     .f9-bottom .f9-col2 {
@@ -118,6 +118,10 @@
         font-size: 40px;
     }
     .f9-top p {
+        font-size: 20px;
+    }
+    .f9-bottom .f9-col .card p,
+    .f9-bottom .f9-col2 .card p {
         font-size: 18px;
     }
     .f9-bottom .f9-col,
