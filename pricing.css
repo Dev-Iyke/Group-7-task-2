@@ -240,3 +240,78 @@
 .pricing #bg-blue .cta p {
   color: var(--Primary-Blue-500, #1d4ed8);
 }
+
+@media (max-width: 500px) {
+  .pricing {
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    gap: 20px;
+  }
+  .title {
+    gap: 30px;
+  }
+  .plans {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    align-self: stretch;
+    padding: 0px;
+  }
+  .title .group {
+    position: absolute;
+    right: 0px;
+    bottom: -44.324px;
+  }
+  .title .group img {
+    width: 71.874px;
+    height: 45.337px;
+    flex-shrink: 0;
+  }
+  .title .group span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .pricing {
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    gap: 20px;
+  }
+  .title {
+    gap: 30px;
+  }
+  .plans {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    align-self: stretch;
+    padding: 0px;
+  }
+  .title .group {
+    position: absolute;
+    right: 0px;
+    bottom: -44.324px;
+  }
+  .title .group img {
+    width: 71.874px;
+    height: 45.337px;
+    flex-shrink: 0;
+  }
+  .title .group span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1280px) or (max-width: 901px) {
+  .pricing {
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    gap: 60px;
+  }
+}
