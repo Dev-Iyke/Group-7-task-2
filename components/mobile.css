@@ -1,0 +1,78 @@
+@media only screen and (max-width: 480px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  /* top-section */
+  .top-section {
+    padding-top: 64px;
+  }
+
+  .heading-and-badge > .heading {
+    font-size: 36px;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+  }
+
+  .heading-and-support-text > .supporting-text {
+    font-size: 18px;
+    line-height: 28px; /* 155.556% */
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  .input-field > .content > input {
+    flex: 1 0 0;
+    border: none;
+  }
+
+  /* cards-section */
+
+  .row {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .card {
+    width: 100%;
+    height: 460px;
+  }
+
+  .sub-heading {
+    font-size: 12px;
+  }
+
+  .heading-and-icon > .heading {
+    font-size: 18px;
+    line-height: 30px; /* 133.333% */
+  }
+
+  .heading-and-text > .supporting-text {
+    font-size: 14px;
+  }
+
+  .text-and-supporting-text > .text {
+    font-size: 12px;
+  }
+
+  .text-and-supporting-text > .supporting-text {
+    font-size: 12px;
+  }
+
+  .action {
+    padding-bottom: 64px;
+  }
+
+  .action > button {
+    flex: 1 0 0;
+  }
+}

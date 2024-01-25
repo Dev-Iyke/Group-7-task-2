@@ -28,15 +28,6 @@
     align-self: stretch;
   }
   
-  .heading-and-support-text > .supporting-text {
-    color: var(--Primary-700, #6941c6);
-    text-align: center;
-  
-    /* Text xl/Normal */
-    font-size: 20px;
-    line-height: 30px; /* 150% */
-  }
-  
   .badge {
     display: flex;
     align-items: flex-start;
@@ -70,6 +61,15 @@
     font-size: 48px;
     line-height: 60px; /* 125% */
     letter-spacing: -0.96px;
+  }
+
+  .heading-and-support-text > .supporting-text {
+    color: var(--Primary-700, #6941c6);
+    text-align: center;
+  
+    /* Text xl/Normal */
+    font-size: 20px;
+    line-height: 30px; /* 150% */
   }
   
   .input-field {
