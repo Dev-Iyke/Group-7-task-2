@@ -1,0 +1,117 @@
+.top-section {
+    padding-top: 96px;
+    background: var(--Primary-50, #f9f5ff);
+  }
+  
+  .top-section > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+  }
+  
+  .heading-and-support-text {
+    display: flex;
+    /* width: 1024px; */
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .heading-and-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+  }
+  
+  .badge {
+    display: flex;
+    align-items: flex-start;
+    mix-blend-mode: multiply; /* ??? */
+  }
+  
+  .badge > button {
+    display: flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: var(--Primary-50, #f9f5ff);
+    color: var(--Primary-700, #6941c6);
+    border: none;
+    text-align: center;
+  
+    /* Text sm/Medium */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .heading-and-badge > .heading {
+    align-self: stretch;
+    color: var(--Primary-900, #42307d);
+    text-align: center;
+  
+    /* Display lg/Semibold */
+    font-size: 48px;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  .heading-and-support-text > .supporting-text {
+    color: var(--Primary-700, #6941c6);
+    text-align: center;
+  
+    /* Text xl/Normal */
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+  }
+  
+  .input-field {
+    display: flex;
+    /* width: 320px; */
+    width: 30%;
+    height: 38px;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #d0d5dd);
+    background: var(--White, #fff);
+  
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  }
+  
+  .input-field > .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+  
+  .search {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .input-field > .content > input {
+    flex: 1 0 0;
+    border: none;
+  }
+  
+  .input-field > input::placeholder {
+    color: var(--Gray-500, #667085);
+  
+    /* Text md/Normal */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
