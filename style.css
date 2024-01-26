@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-bg {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-w {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  /* flex-shrink: 0; */
+  background: url("./assest/image/Rectangle-desktop.png");
+  background-position: 0 0, 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 34vw;
+  margin: 1rem 2rem 4rem;
+  gap: 32px;
+}
+
+.left-body a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  display: flex;
+  padding: 12px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #fff;
+  /* margin-left: 0; */
+}
+
+.left-heading3 {
+  color: #fff;
+  font-size: 55px;
+  font-family: "Inter", sans-serif;
+  font-style: 800;
+  line-height: 1em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  background: #ccc;
+  background-blend-mode: color-burn;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.right-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+  margin-left: 0;
+}
+
+.right-head {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.login-text {
+  font-size: 16px;
+  text-align: left;
+  /* margin-left: 0; */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-sizing: border-box; */
+  outline: none;
+}
+
+input::placeholder {
+  color: #908d8d;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* input.active::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+} */
+
+.error {
+  color: #ff0000;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.frame-2 {
+  width: 100%;
+  margin-top: 500px;
+}
+
+.background-image {
+  padding: 336px 598px 490px 152px;
+  background: url("./assest/image/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 46.29px;
+}
+
+.welcome-title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 82.01px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.welcome-welcome {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.join-discord {
+  width: 50%;
+  align-self: flex-start;
+  padding: 17.358px 31.824px;
+  border-radius: 11.572px;
+  background: #fff;
+  color: #1e1e1e;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* @media (max-width: 1024px) {
+  .right-body {
+    margin-left: 5rem;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .login-w {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .left {
+    width: 100%;
+    height: 24rem;
+  }
+  .left-body {
+    position: relative;
+    left: 1.5rem;
+    bottom: 2.5rem;
+    width: 22.5rem;
+    margin: 0;
+    gap: 32px;
+  }
+  .left-heading3 {
+    font-size: 2rem;
+  }
+  .right {
+    width: 100%;
+  }
+  .right-body {
+    margin-left: auto;
+  }
+  .right-head {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .login-bg {
+    height: 100vh;
+  }
+  .left {
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      lightgray 50% / cover no-repeat, #ccc;
+    background-blend-mode: color-burn;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .left-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 18.5rem;
+    top: 12rem;
+    height: 100vh;
+    margin-top: 0;
+    gap: 2rem;
+  }
+  .right {
+    background-color: #fff;
+  }
+  .right-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 3rem;
+    gap: 64px;
+  }
+} */
+
+@media (min-width: 641px) and (max-width: 1023px) {
+  .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 310px 100px 100px 50px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 640px) {
+  .login-w {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    background: url("./assest/image/Rectangle-3-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .left-heading3 {
+    font-size: 32px;
+  }
+  .left-body {
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  .right {
+    height: auto;
+    background: #fff;
+    margin-block: 47.5px;
+    justify-content: flex-start;
+  }
+
+  .background-image {
+    background: url("./assest/image/Rectangle-1-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 291px 27px 42.28px 26px;
+  }
+  .welcome-title {
+    font-size: 32px;
+  }
+
+  .welcome-welcome {
+    font-size: 14px;
+  }
+  .join-discord {
+    width: 70%;
+  }
+}
